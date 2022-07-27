@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Are you want to zakat?</title>
+<head >
+    <   <link rel="stylesheet" href="zakat.css">
+    <title>Are you want to zakat?</title>
+</head>
+<body>
+  
+    <div class="main">
+    <div class="form-box">
+        <h1>Are you want to zakat?</h1>
+ <h5>NAME:<input type="text" id="mytext" value=""></h5>
+    <br>
+    <button onclick=" 
+    let Name = document.getElementById('mytext').value;
+    document.getElementById('heading').innerText = Name">
+  Sir.Click Here </button>
+  <br>
+  <h2 id="heading">Your's Name</h2>
+    <br>
+    <h3>Calculat</h3>
+ <h5> TotalAmount:<input type="number" id="totalAmount"></h5>
+
+<br>
+<button onclick="
+let amount  = document.getElementById('totalAmount').value;
+let zakatAmount =amount/40;
+document.getElementById('value').innerText = zakatAmount;">Calculate Zakat</button>
+
+<h4 id="value">Your Zakat</h4>
+<h5><p>payment made annually under Islamic law on certain
+ kinds of property and used for charitable and religious 
+ purposes, one of the Five Pillars of Islam.</p></h5>
+    </div>
+</div>
+</body>
+</html>

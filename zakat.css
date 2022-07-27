@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(zakatt.jpg);
+    width: 39%;
+    height: 80px;
+    background-size: cover;
+    background-position: center; 
+}
+div.main{
+    width: 400px;
+   
+
+}
+div.form{
+    background-color: rgba(0,0,0,0.5);
+    width: 360px;
+    height: 480px;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+h1{
+    font-size: 30px;
+    color: rgb(193, 229, 12);
+}
+h2{ font-size: 40px;
+    color: rgb(230, 31, 203);
+
+}
+h3{
+    font-size: 40px;
+    color: rgb(152, 244, 59);
+}
+h4{
+    font-size: 40px;
+    color: rgb(35, 15, 218);
+}
+h5{
+    font-size: 18px;
+    color: rgb(218, 245, 12);
+}
+
+
+button{background-color: rgb(6, 156, 136);
+    opacity: 0.9;
+    font-size: 30px;
+    color: rgb(136, 247, 219);
+    border-radius: 40px; }
+
+
+
+button:hover{background-color: rgb(238, 101, 101);
+    opacity: 0.9;
+    font-size: 30px;
+    color: rgb(136, 247, 219);
+    border-radius: 40px; }
